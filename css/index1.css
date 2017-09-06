@@ -1,0 +1,483 @@
+body,
+p,
+ul,
+ol,
+dl,
+dd,
+dt,
+li,
+h1,
+h2,
+h3,
+form,
+input,
+div,
+img,
+pre {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	list-style: none;
+	font-family: Arail, "Microsoft Yahei";
+}
+
+a {
+	text-decoration: none;
+	color: #333;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "微软雅黑";
+	font-size: 12px;
+}
+
+#jsxc_box {
+	position: relative;
+	width: 360px;
+	height: 610px;
+	background-color: #f2f2f2;
+	margin: 0 auto;
+}
+
+.jsxcBox {
+	width: 360px;
+	height: 565px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+
+/**顶部样式**/
+
+#jsxc_box .top {
+	position: relative;
+	width: 100%;
+	height: 45px;
+	background: #ffaa00;
+}
+
+#jsxc_box .top .fa-commenting-o {
+	height: 45px;
+	line-height: 45px;
+	float: left;
+	font-size: 25px;
+	margin-left: 10px;
+	color: white;
+}
+
+#jsxc_box .top .shopSitus {
+	height: 25px;
+	line-height: 25px;
+	font-size: 12px;
+	float: left;
+	margin: 5px auto auto 75px;
+	padding: 5px;
+	border: 1px;
+	border-radius: 15px;
+	background: white;
+}
+
+#jsxc_box .top .shopSitus:hover {
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+	transition: all 0.2s;
+}
+
+#jsxc_box .top .shopSitus .fa-map-marker {
+	height: 25px;
+	line-height: 25px;
+	font-size: 20px;
+	float: left;
+	margin-right: 5px;
+}
+
+#jsxc_box .top .fa-search {
+	height: 45px;
+	line-height: 45px;
+	font-size: 23px;
+	color: white;
+	margin-right: 10px;
+	float: right;
+}
+
+
+/**顶部样式结束**/
+
+
+/*图片轮播*/
+
+#wrapper {
+	position: relative;
+	margin: 0 auto;
+	width: 360px;
+	height: 180px;
+}
+
+#banner {
+	position: relative;
+	width: 360px;
+	height: 180px;
+	overflow: hidden;
+}
+
+.imgList {
+	position: relative;
+	width: 1800px;
+	height: 180px;
+	z-index: 10;
+	overflow: hidden;
+}
+
+.imgList li {
+	float: left;
+	display: inline;
+}
+
+.indexList {
+	width: 100px;
+	position: absolute;
+	right: 120px;
+	bottom: 5px;
+	z-index: 30;
+}
+
+.indexList li {
+	width: 4px;
+	height: 4px;
+	border: 2px solid rgba(255, 255, 255, 0.3);
+	float: left;
+	margin-right: 10px;
+	border-radius: 50%;
+	background: rgba(0, 0, 0, 0.4);
+	cursor: pointer;
+}
+
+.indexList .indexOn {
+	background: #B0B0B0;
+	font-weight: bold;
+	color: white;
+}
+
+
+/*图片轮播样式结束*/
+
+#jsxc_box .contents {
+	position: relative;
+	width: 360px;
+	height: 150px;
+	overflow: hidden;
+}
+
+#jsxc_box .contents .contentsBox {
+	width: 720px;
+	height: 150px;
+	transition: margin-left 0.5s ease 0s;
+}
+
+#jsxc_box .contents .contents-list {
+	width: 360px;
+	height: 150px;
+	float: left;
+}
+
+#jsxc_box .contents .contents-list .contents-list-products {
+	width: 17%;
+	height: 60px;
+	float: left;
+	text-align: center;
+	margin-top: 8px;
+	margin-left: 9px;
+	font-size: 11px;
+}
+
+#jsxc_box .contents .contents-list .contents-list-products a img {
+	width: 40px;
+	height: 40px;
+	border-radius: 10px;
+	background: #333333;
+}
+
+#jsxc_box .contents .contents-list .contents-list-products a img:hover {
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+	transition: all 0.2s;
+	margin-top: -1px;
+}
+
+#jsxc_box .contents .single-control {
+	width: 100px;
+	position: absolute;
+	bottom: 5px;
+	left: 160px;
+}
+
+#jsxc_box .contents .single-control li {
+	width: 4px;
+	height: 4px;
+	border: 2px solid rgba(255, 255, 255, 0.3);
+	float: left;
+	margin-right: 10px;
+	border-radius: 50%;
+	background: rgba(0, 0, 0, 0.4);
+	cursor: pointer;
+}
+
+
+/***********/
+
+#jsxc_box .radio {
+	width: 325px;
+	height: 25px;
+	background: white;
+	border-radius: 10px;
+	margin: 5px 10px auto 10px;
+	overflow: hidden;
+}
+
+#jsxc_box .radio .radioList{
+	display: inline-block;
+	width: 295px;
+	height: 25px;
+	float: left;
+	transition: margin-top 0.5s ease 0s;
+}
+
+#jsxc_box .radio .fa-bullhorn {
+	height: 25px;
+	line-height: 25px;
+	font-size: 20px;
+	color: #FFAA00;
+	margin-left: 10px;
+	float: left;
+}
+
+#jsxc_box .radio a {
+	display: block;
+	height: 25px;
+	line-height: 25px;
+	font-size: 15px;
+	text-align: center;
+}
+
+#jsxc_box .radio a:hover {
+	color: orangered;
+	transition: all 0.2s;
+}
+
+
+/***Snacks样式开始***/
+
+#Snacks {
+	position: relative;
+	width: 360px;
+	height: 140px;
+	overflow: hidden;
+}
+
+#Snacks .snacks-Control .fa-angle-left {
+	position: absolute;
+	left: 0;
+	top: 50px;
+	font-size: 18px;
+	color: #B0B0B0;
+	cursor: pointer;
+}
+
+#Snacks .snacks-Control .fa-angle-right {
+	position: absolute;
+	right: 0;
+	top: 50px;
+	font-size: 18px;
+	color: #B0B0B0;
+	cursor: pointer;
+}
+
+#Snacks .snacks-Control .fa-angle-left:hover {
+	color: #FF4500;
+}
+
+#Snacks .snacks-Control .fa-angle-right:hover {
+	color: #FF4500;
+}
+
+.active {
+	opacity: 0.3;
+	filter: alpha(opacity=30);
+}
+
+#Snacks .Snackbox {
+	width: 1080px;
+	height: 135px;
+	transition: margin-left 0.5s ease 0s;
+}
+
+#Snacks .Snackbox li {
+	width: 105px;
+	height: 120px;
+	border-top-width: 1px;
+	border-top-style: solid;
+	text-align: center;
+	background: #fafafa;
+	margin-top: 10px;
+	margin-left: 11px;
+	border-radius: 10px;
+}
+
+#Snacks .Snackbox li:hover {
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+	transition: all 0.5s;
+}
+
+#Snacks .Snackbox li .photo {
+	width: 80px;
+	height: 60px;
+	margin-top: 5px;
+}
+
+#Snacks .Snackbox li .SnacksProductsName {
+	font-size: 11px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+#Snacks .Snackbox li .productPresentation {
+	text-align: center;
+	width: 60px;
+	margin: 0 25px 0 25px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	color: #b0b0b0;
+}
+
+#Snacks .Snackbox li .productPrice {
+	font-size: 11px;
+	color: #FFAA00;
+}
+
+#Snacks .Snackbox .Snacks-a {
+	border-top-color: #FFAC13;
+	float: left;
+}
+
+#Snacks .Snackbox .Snacks-b {
+	border-top-color: #83C44E;
+	float: left;
+}
+
+#Snacks .Snackbox .Snacks-c {
+	border-top-color: #2196F3;
+	float: left;
+}
+
+#Snacks .Snackbox .Snacks-d {
+	border-top-color: #FF3030;
+	float: left;
+}
+
+#Snacks .Snackbox .Snacks-e {
+	border-top-color: #EEEE00;
+	float: left;
+}
+
+#Snacks .Snackbox .Snacks-f {
+	border-top-color: #ADFF2F;
+	float: left;
+}
+
+#Snacks .Snackbox .Snacks-g {
+	border-top-color: #B03060;
+	float: left;
+}
+
+#Snacks .Snackbox .Snacks-h {
+	border-top-color: #98F5FF;
+	float: left;
+}
+
+#Snacks .Snackbox .Snacks-i {
+	border-top-color: #8DB6CD;
+	float: left;
+}
+
+
+/***Snacks样式结束***/
+
+
+/******图片推荐******/
+
+#pictureRecommend {
+	width: 360px;
+	height: 468px;
+	text-align: center;
+}
+
+#pictureRecommend .pictureRecommend-list1 {
+	width: 340px;
+	height: 165px;
+	padding: 0 10px 0 10px;
+}
+
+#pictureRecommend .pictureRecommend-list1 a img {
+	width: 110px;
+	height: 150px;
+	cursor: pointer;
+}
+
+#pictureRecommend .pictureRecommend-list1 img:hover {
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+	transition: all 0.5s;
+	margin-top: -2px;
+}
+
+#pictureRecommend .pictureRecommend-list2 {
+	width: 360px;
+	height: 300px;
+}
+
+#pictureRecommend .pictureRecommend-list2 p img {
+	width: 50%;
+}
+
+#pictureRecommend .pictureRecommend-list2 a img {
+	width: 360px;
+	height: 130px;
+}
+
+#pictureRecommend .pictureRecommend-list2 a img:hover {
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+	transition: all 0.5s;
+}
+
+
+/***图片推荐结束***/
+
+#footer {
+	position: absolute;
+	width: 100%;
+	height: 45px;
+	bottom: 0;
+	text-align: center;
+	background: #C5C1AA;
+}
+
+#footer .firstPage {
+	color: #FFAA00;
+}
+
+#footer a {
+	font-size: 18px;
+	float: left;
+	color: white;
+	margin-left: 50px;
+}
+
+#footer a p {
+	font-size: 12px;
+}
+
+#footer a:hover {
+	color: #FFAA00;
+	transition: all 0.5s;
+}

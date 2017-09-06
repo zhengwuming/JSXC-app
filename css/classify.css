@@ -1,0 +1,341 @@
+body,p,ul,ol,dl,dd,dt,li,h1,h2,h3,form,input,div,img,pre {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	list-style: none;
+	font-family: Arail, "Microsoft Yahei";
+}
+
+a {
+	text-decoration: none;
+	color: #333;
+}
+
+body{
+	margin:0;
+	padding: 0;
+	font-family: "微软雅黑";
+	font-size: 12px;
+}
+
+#main {
+	width: 360px;
+	position: relative;
+	width: 360px;
+	height: 585px;
+	background-color: #f2f2f2;
+	margin: 0 auto;
+}
+
+/**顶部样式**/
+#main .top{
+	position: relative;
+	width: 100%;
+	height: 45px;
+	background: #ffaa00;
+}
+
+#main .top .fa-angle-left{
+	height: 45px;
+	line-height: 45px;
+	float: left;
+	font-size: 25px;
+	margin-left: 10px;
+	color: white;
+}
+
+#main .top .shopSitus{
+	height: 25px;
+	line-height: 25px;
+	font-size: 12px;
+	float: left;
+	margin: 5px auto auto 75px;
+	padding: 5px;
+	border: 1px;
+	border-radius: 15px;
+}
+
+#main .top .shopSitus:hover{
+	box-shadow: 0 0 20px rgba(0,0,0,0.2);
+	transition: all 0.2s;
+}
+
+#main .top .shopSitus .fa-map-marker{
+	height: 25px;
+	line-height: 25px;
+	font-size: 20px;
+	float: left;
+	margin-right: 5px;
+}
+
+/***搜索框***/
+#main .top .search-form{
+	float: right;
+	height: 25px;
+	width: 110px;
+	padding: 10px;
+}
+
+#main .top #search{
+	float: left;
+	width: 65px;
+	height: 100%;
+	padding: 0 10px;
+}
+
+#main .top .search-form .fa-search{
+	height: 15px;
+	line-height: 15px;
+	font-size: 23px;
+	color: white;
+	float: right;
+	margin-top: 5px;
+}
+
+.keyword-list{
+	display: none;
+	position: absolute;
+	z-index: 30;
+	width: 85px;
+	border: 1px solid #ff6700;
+	border-top: 0;
+	right: 34px;
+	top: 30px;
+	background: #fff;
+}
+.keyword-list ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+.keyword-list ul li a{
+	position: relative;
+	display: block;
+	padding: 6px 10px;
+	font-size: 12px;
+	color: #424242;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.result{
+	position: absolute;
+	right: 15px;
+	top: 6px;
+	color: #b0b0b0;
+}
+/***搜索框结束***/
+/**顶部样式结束**/
+
+/*****************/
+
+#main .left-menu {
+	width: 85px;
+	float: left;
+	background-color: #eee;
+	position: relative;
+	overflow-y: scroll;
+	height: 500px;
+}
+
+#main .left-menu ul li {
+	height: 40px;
+	line-height: 40px;
+	width: 100%;
+	text-align: center;
+	font-size: 12px;
+	padding: 3px 0;
+	color: #333;
+	border-bottom: 1px dashed #ddd;
+	cursor: pointer;
+}
+
+#main .left-menu ul li:hover{
+	color: #FF6700;
+	background: #fff;
+}
+
+#main .left-menu ul li.active {
+	color: #FF6700 !important;
+	background-color: #fff;
+}
+
+#main .right-menu {
+	position: relative;
+	width: 275px;
+	float: left;
+}
+
+#main .right-menu .right-con {
+	position: relative;
+	width: 100%;
+	display: none;
+	float: left;
+	overflow-y: scroll;
+	background: #fff;
+	position: relative;
+	height: 500px;
+}
+
+#main .right-menu .right-con .right-con_top {
+	position: absolute top: 0;
+	left: 0;
+}
+
+#main .right-menu .con-active {
+	width: 100%;
+	display: block;
+}
+
+.right-con ul li {
+	position: relative;
+	width: 100%;
+	height: 75px;
+	border-bottom: 1px solid #e7eaeb;
+	border-top: 1px solid #fff;
+	padding-bottom: 8px;
+	margin-bottom: 2px;
+}
+
+.right-con ul li .menu-img {
+	float: left;
+	margin-left: 10px;
+	margin-top: 10px;
+	border-radius: 3px;
+	cursor: pointer;
+}
+
+.right-con ul li .menu-txt {
+	float: left;
+	margin-left: 10px;
+}
+
+.right-con ul li .menu-txt .productsName{
+	width: 170px;
+	font-size: 13px;
+	margin-top: 8px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.right-con ul li .menu-txt .productsName a:hover{
+	color: #FF7300;
+}
+
+.right-con ul li .menu-txt .productPresentation{
+	width: 170px;
+	line-height: 20px;
+	font-size: 11px;
+	color: #DDDDDD;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.right-con ul li .menu-txt .productPrice{
+	font-size: 12px;
+	color: #f00;
+}
+
+.right-con ul li .btn {
+	background-color: transparent;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	cursor: pointer;
+	padding: 3px;
+	height: 30px;
+}
+
+.right-con li .btn button {
+	width: 40px;
+	height: 40px;
+	border: 0;
+	background: transparent;
+	padding: 0;
+}
+
+.right-con li .btn button.minus {
+	margin-right: -10px;
+	display: none;
+	cursor: pointer;
+}
+
+.right-con li .btn button strong {
+	padding: 5px 10px;
+	font-size: 15px;
+	display: inline-block;
+	text-indent: -100px;
+	padding: 5px 11px;
+	height: 12px;
+}
+
+.right-con li .btn button.minus strong {
+	background: url(../img/down.png) no-repeat;
+	background-size: 22px 22px;
+}
+
+.right-con li .btn i {
+	display: none;
+	width: 22px;
+	text-align: center;
+	font-style: normal;
+	vertical-align: top;
+	margin-top: 11px;
+	line-height: 18px;
+}
+
+.right-con li .btn button.add {
+	margin-left: -10px;
+	cursor: pointer;
+}
+
+.right-con li .btn button.add strong {
+	background: url(../img/up.png) no-repeat;
+	background-size: 22px 22px;
+}
+
+.right-con li .btn .price {
+	display: none;
+}
+
+.footer {
+	display: block;
+	position: absolute;
+	width: 360px;
+	z-index: 3;
+	bottom: 0px;
+	color: #f03c03;
+	background: #fff;
+	line-height: 35px;
+	font-size: 15px;
+	border-top: 1px solid #e2e2e2;
+}
+
+.footer .left {
+	float: left;
+	margin: 5px 10px;
+}
+
+.footer .left .fa-shopping-cart{
+	font-size: 26px;
+}
+
+.footer .right {
+	float: right;
+}
+
+.footer .right .disable {
+	background: #dbdbdb;
+}
+
+.footer .xhlbtn {
+	display: block;
+	text-align: center;
+	line-height: 45px;
+	background-color: #F03C03;
+	padding: 0 15px;
+	color: #fff;
+	font-weight: bold;
+}

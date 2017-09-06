@@ -1,0 +1,242 @@
+body,p,ul,ol,dl,dd,dt,li,h1,h2,h3,form,input,div,img,pre {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	list-style: none;
+	font-family: Arail, "Microsoft Yahei";
+}
+
+a {
+	text-decoration: none;
+	color: #333;
+}
+
+body{
+	margin:0;
+	padding: 0;
+	font-family: "微软雅黑";
+	font-size: 12px;
+}
+
+#mine{
+	width: 360px;
+	position: relative;
+	width: 360px;
+	height: 585px;
+	background-color: #F2F2F2;
+	margin: 0 auto;
+}
+
+#mine .mineBox{
+	width: 100%;
+	height: 100%;
+}
+
+#mine .mineBox .top{
+	position: relative;
+	width: 100%;
+	height: 140px;
+	background: url(../img/background_01.png);
+	background-size: 100% 140px;
+}
+
+#mine .mineBox .top .fa-cog{
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	font-size: 26px;
+}
+
+#mine .mineBox .top .fa-cog:hover{
+	color: white;
+}
+
+#mine .mineBox .top li img{
+	width: 90px;
+	height: 90px;
+	position: absolute;
+	bottom: 32px;
+	left: 135px;
+	cursor: pointer;
+	border-radius: 50%;
+}
+
+#mine .mineBox .top li img:hover{
+	box-shadow: 0 0 20px rgba(0,0,0,0.2);
+	transition: all 0.2s;
+}
+
+
+#mine .mineBox .top .login{
+	width: 80px;
+	height: 15px;
+	text-align: center;
+	position: absolute;
+	bottom: 5px;
+	left: 135px;
+	background: white;
+	border-radius: 25px;
+	padding: 5px;
+}
+
+#mine .mineBox .top .login:hover{
+	color: white;
+	background: black;
+	box-shadow: 0 0 20px rgba(0,0,0,0.2);
+	transition: all 0.2s;
+}
+
+/****我的订单样式****/
+
+#mine .mineBox .dividingLine img{
+	width: 100%;
+	height: 3px;
+	display: block;
+}
+
+#mine .mineBox .Order{
+	width: 100%;
+	height: 40px;
+	border-bottom: 1px solid #DBDBDB;
+}
+
+#mine .mineBox .Order a:hover{
+	color: #EE7600; 
+}
+
+#mine .mineBox .Order .fa-file-text-o{
+	height: 40px;
+	font-size: 26px;
+	line-height: 40px;
+	margin-left: 10px;
+	color: #EE7600;
+}
+
+#mine .mineBox .Order .myOrder{
+	line-height: 40px;
+	font-size: 16px;
+	margin-left: 10px;
+}
+
+#mine .mineBox .orderList{
+	width: 100%;
+	height: 50px;
+	background:white;
+}
+
+#mine .mineBox .orderList li{
+	height: 35px;
+	width: 40px;
+	float: left;
+	margin-top: 2px;
+	margin-left: 30px;
+	text-align: center;
+	border-radius: 50%;
+	padding: 5px;
+}
+
+#mine .mineBox .orderList li:hover{
+	box-shadow: 0 0 20px rgba(0,0,0,0.3);
+	transition: all 0.5s;
+	background: #F4F4F4;
+}
+
+#mine .mineBox .orderList li i{
+	font-size: 20px;
+	color: #EE7600;
+}
+
+#mine .mineBox .orderList li p:hover{
+	color: #EE7600;
+	transition: all 0.5s; 
+}
+
+/****我的订单样式结束****/
+
+/****我的账户****/
+#mine .mineBox .Account{
+	width: 100%;
+	height: 40px;
+	border-bottom: 1px solid #DBDBDB;
+}
+
+#mine .mineBox .Account a:hover{
+	color: #EE7600;
+	transition: all 0.5s; 
+}
+
+#mine .mineBox .Account .fa-user-o{
+	height: 40px;
+	font-size: 26px;
+	line-height: 40px;
+	margin-left: 10px;
+	color: #EE7600;
+}
+
+#mine .mineBox .Account .myAccount{
+	font-size: 16px;
+	margin-left: 10px;
+	line-height: ;
+}
+
+#mine .mineBox .acountList{
+	width: 100%;
+	height: 265px;
+	background: white;
+}
+
+#mine .mineBox .acountList li{
+	width: 100%;
+	height: 52px;
+	border-bottom: 1px solid #DBDBDB;
+}
+
+#mine .mineBox .acountList span:hover{
+	color: #DBDBDB;
+}
+
+#mine .mineBox .acountList li img{
+	float: left;
+	margin-top: 10px;
+	margin-left: 15px;
+}
+
+#mine .mineBox .acountList li a span{
+	font-size: 16px;
+	float: left;
+	margin-top: 16px;
+	margin-left: 10px;
+}
+
+/******我的账户结束******/
+
+/*****底部****/
+#footer{
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	text-align: center;
+	background: #C5C1AA;
+}
+
+#footer .lastPage{
+	color: #FFAA00;
+}
+
+#footer a{
+	font-size: 18px;
+	float: left;
+	color: white;
+	margin-left: 50px;
+}
+
+#footer a p{
+	font-size: 12px;
+}
+
+#footer a:hover{
+	color: #FFAA00;
+	transition: all 0.5s; 
+}
+
+
