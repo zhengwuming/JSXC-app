@@ -1,1 +1,1 @@
-JSXC-app
+JSXC-webapp
